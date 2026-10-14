@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eaf4f4;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #176b5b;
+}
+
+h2 {
+    color: #176b5b;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 18px;
+    background: #176b5b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #104c41;
+}
+
+#result,
+#percentage,
+#aiResult {
+    margin-top: 15px;
+    line-height: 1.8;
+    color: #333;
+}

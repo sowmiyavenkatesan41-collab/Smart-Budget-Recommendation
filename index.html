@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PocketSmart AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <p>Your Smart Budget & Recommendation Assistant</p>
+
+        <input type="number" id="income"
+            placeholder="Enter your monthly income">
+
+        <input type="number" id="expenses"
+            placeholder="Enter your monthly expenses">
+
+        <button onclick="calculateBudget()">
+            Calculate Budget
+        </button>
+        <p id="percentage"></p>
+
+        <div id="result"></div>
+
+        <h2>AI Recommendation</h2>
+
+        <textarea id="Ask"
+            placeholder="Ask something about your budget..."></textarea>
+
+        <button onclick="getRecommendation()">
+            AI Advice
+        </button>
+
+        <div id="aiResult"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    input,
+    textarea,
+    button {
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 12px;
+    }
+}
